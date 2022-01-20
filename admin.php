@@ -16,7 +16,7 @@ $cut = explode("\n",file_get_contents("stats/users.txt"));
 $users = count($cut)-1;
 $mode = file_get_contents("stats/bc.txt");
 $name = $message->from->first_name;
-$urlget = json_decode(file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=$chuser&user_id=".$ids));
+$urlget = json_decode(file_get_contents("https://api.telegram.org/bot"5005901260:AAHMJ660p-AXp2FUH8BMyZHUCl3GZ1c9pRw"/getChatMember?chat_id=$chuser&user_id=".$ids));
 $joinch = $urlget->result->status;
 #Start code Subscription
 
