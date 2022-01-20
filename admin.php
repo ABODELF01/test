@@ -2,9 +2,9 @@
 
 #Start Variables
 $ids = $message->from->id;
-$chuser = "@userch"; # <<<== معرف قناتك #
-️$chname = "Here -Name"; # <<<== اسم قناتك #
-$ary = array(1,2,3,4); # <<<== ايديك + ايديات الادمنية  #
+$chuser = "@porn691"; # <<<== معرف قناتك #
+️$chname = "+18"; # <<<== اسم قناتك #
+$ary = array(1833652878); # <<<== ايديك + ايديات الادمنية  #
 $admins = in_array($ids,$ary);
 $chcut = explode("@",$chuser);
 $chlink = $chcut[1];
